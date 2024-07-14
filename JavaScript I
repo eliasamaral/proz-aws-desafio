@@ -1,0 +1,10 @@
+let numerosDaSorte = [37, 14, 26, 5, 94, 87];
+
+for (let i = 0; i < numerosDaSorte.length; i++) {
+    let numero = numerosDaSorte[i];
+
+    // Verifica se o número é par e menor que 50
+    if (numero % 2 === 0 && numero < 50) {
+        console.log(numero + " é par e menor que 50");
+    }
+}
